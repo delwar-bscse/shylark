@@ -15,7 +15,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex justify-center items-center text-white py-2 md:ms-12">
-          <button className="border-[3px] px-4 py-2 w-[250px] rounded-full hover:text-[#C2A5F9] hover:bg-white focus:outline-none focus:right focus:ring-red-100 duration-500">SUBSCRIBE TO OUR NEWS</button>
+          <button className="border-[2.5px] px-4 py-2 w-[250px] rounded-full hover:bg-white hover:text-gray-500 hover:border-gray-400 focus:outline-none focus:right focus:ring-gray-100 duration-500">SUBSCRIBE TO OUR NEWS</button>
         </div>
       </div>
       <div className="flex max-sm:flex-col justify-between items-center bg-[#9E78E8] min-h-[63px] text-slate-200 font-poppins text-sm py-3 px-6 max-md:py-8">

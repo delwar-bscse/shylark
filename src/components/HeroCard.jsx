@@ -36,7 +36,7 @@ const HeroCard = () => {
           <div className=" py-[50px] md:py-[100px] max-md:text-[10px]">
             <ul className="w-full flex justify-between items-end gap-1 md:gap-6">
               {heroSectionInfo.map((item)=>(
-                <li key={item.index} onClick={()=>setControler(item.index)} className={` ${item.index===controler ? "pb-4 text-white" : "pb-6"} uppercase tracking-wider font-poppins font-3xl font-semibold border-b-4 flex-1 hover:pb-4 cursor-pointer text-gray-400 duration-200 hover:text-white`}>{item.title}</li>
+                <li key={item.index} onClick={()=>setControler(item.index)} className={` ${item.index===controler ? "pb-4 text-white" : "pb-6"} uppercase tracking-wider font-poppins text-1xl font-semibold border-b-4 flex-1 hover:pb-4 cursor-pointer text-gray-400 duration-200 hover:text-white`}>{item.title}</li>
               ))}
             </ul>
           </div>
