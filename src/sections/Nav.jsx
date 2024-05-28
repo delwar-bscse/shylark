@@ -2,7 +2,7 @@ import { useState } from "react";
 import NavItems from "../components/NavItems"
 import { navItems0, navItems1, navItems2 } from "../constants"
 import { IoIosMenu, IoMdClose } from "react-icons/io";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Nav = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

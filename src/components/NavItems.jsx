@@ -4,7 +4,7 @@ const NavItems = ({items}) => {
     <div>
       <ul className="flex justify-between">
         {items.map((item,i)=>(
-          <li key={i} className="text-[13px] font-poppins">
+          <li key={i} className="text-[13px] font-poppins xl:tracking-widest">
             <a href={item.navUrl}>{item.name}</a>
           </li>
         ))}
